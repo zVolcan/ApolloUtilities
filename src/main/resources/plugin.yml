@@ -1,0 +1,13 @@
+name: ApolloUtilities
+version: '${project.version}'
+main: org.volcan.apolloutilities.ApolloUtilities
+api-version: '1.13'
+softdepend:
+  - "Apollo-Bukkit"
+description: "Utilities for API Lunar Client!"
+author: "zVolcan"
+commands:
+  apollo-utilities:
+    description: "Main command."
+    aliases: [ lunar-utilities ]
+    usage: "/apollo-utilities"

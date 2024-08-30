@@ -1,0 +1,20 @@
+# Activate the Xray Mod if the player has Lunar Client.
+# It will only be activated if the player has the "apollo-utilities.xray" permission.
+auto-xray: true
+
+# Send a message when the player activate the Xray Mod.
+# Only visible if you have activated the "auto-xray" option.
+message-enable-xray: true
+
+# Command only for players with permissions "apollo-utilities.command".
+# Players will still be able to see the command, they just won't be able to execute it.
+command-with-permission: true
+
+lang:
+  prefix: "&8[&bApollo-Utilities&8] "
+  enable-xray: "&fXrayMod &7has been &aactivated&7!"
+  disable-xray: "&fXrayMod &7has been &cdesactivated&7!"
+  not-permission: "&cYou do not have permissions to run this command!"
+  player-not-found: "&cThat player does not exist!"
+  not-permission-other: "&cThat player does not have permissions for that!"
+  usage: "&f/apollo-utilities <xray | team | bearn | waypoins>."
